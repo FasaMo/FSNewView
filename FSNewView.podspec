@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   s.author             = { "FasaMo" => "Fasa_Mo@iCloud.com" }
   s.social_media_url   = "http://weibo.com/FasaMo"
   s.platform     = :ios, "6.0"
-
+#  s.source       = { :git => "/Users/fasamo/Documents/iOS/Github/FSNewView", :tag => s.version }
   s.source       = { :git => "https://github.com/FasaMo/FSNewView.git", :tag => s.version }
-  s.source_files  = "FSNewvIEW/*.{h,m}"
+  s.source_files  = "FSNewView/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
