@@ -13,6 +13,7 @@
 		91E250F31CAA2A2B00E80100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E250F11CAA2A2B00E80100 /* Main.storyboard */; };
 		91E250F51CAA2A2B00E80100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E250F41CAA2A2B00E80100 /* Assets.xcassets */; };
 		91E250F81CAA2A2B00E80100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91E250F61CAA2A2B00E80100 /* LaunchScreen.storyboard */; };
+		91E251051CAA564500E80100 /* UIView+FSNewFrameLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E251041CAA564500E80100 /* UIView+FSNewFrameLayoutView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		91E250F41CAA2A2B00E80100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91E250F71CAA2A2B00E80100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91E250F91CAA2A2B00E80100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91E251031CAA564500E80100 /* UIView+FSNewFrameLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+FSNewFrameLayoutView.h"; path = "../../FSNewView/UIView+FSNewFrameLayoutView.h"; sourceTree = "<group>"; };
+		91E251041CAA564500E80100 /* UIView+FSNewFrameLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+FSNewFrameLayoutView.m"; path = "../../FSNewView/UIView+FSNewFrameLayoutView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		91E250E71CAA2A2B00E80100 /* FSNewViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				91E250FF1CAA560100E80100 /* FSNewView */,
 				91E250EB1CAA2A2B00E80100 /* AppDelegate.h */,
 				91E250EC1CAA2A2B00E80100 /* AppDelegate.m */,
 				91E250EE1CAA2A2B00E80100 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				91E250E91CAA2A2B00E80100 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91E250FF1CAA560100E80100 /* FSNewView */ = {
+			isa = PBXGroup;
+			children = (
+				91E251031CAA564500E80100 /* UIView+FSNewFrameLayoutView.h */,
+				91E251041CAA564500E80100 /* UIView+FSNewFrameLayoutView.m */,
+			);
+			name = FSNewView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				91E250F01CAA2A2B00E80100 /* ViewController.m in Sources */,
 				91E250ED1CAA2A2B00E80100 /* AppDelegate.m in Sources */,
 				91E250EA1CAA2A2B00E80100 /* main.m in Sources */,
+				91E251051CAA564500E80100 /* UIView+FSNewFrameLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +312,7 @@
 				91E250FE1CAA2A2B00E80100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
